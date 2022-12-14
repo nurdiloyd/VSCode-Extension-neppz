@@ -1,8 +1,8 @@
 {
     "name": "neppz",
     "displayName": "neppz! (C# theme for Unity)",
-    "version": "0.0.2",
-    "description": "Carefully designed colors with meanings.",
+    "version": "0.0.3",
+    "description": "A version of the carefully designed colors with meanings.",
     "keywords": [
         "unity 3d",
         "c#",
@@ -195,8 +195,8 @@
         "electron-google-analytics": "^0.0.16"
     },
     "devDependencies": {
-        "typescript": "^2.0.3",
-        "vscode": "^1.0.0",
-        "@types/node": "^6.0.40"
+        "@types/node": "^6.0.40",
+        "typescript": "^3.9.10",
+        "vscode": "^1.0.0"
     }
 }

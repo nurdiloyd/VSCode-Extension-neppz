@@ -1,8 +1,8 @@
 {
 	"name": "neppz! (regions.using)",
-	"author": "Geri Borbás",
-	"comment": "Created by Geri Borbás (https://twitter.com/_eppz) © 2017 Creative Commons 4.0 BY-NC",
-	"include": "eppz-code.regions.namespace.declaration.json",
+	"author": ["Geri Borbás", "Nurdogan Karaman"],
+	"comment": "Created by Geri Borbás (https://twitter.com/_eppz) Edited by Nurdogan Karaman (https://twitter.com/nurdiloyd) © 2022 Creative Commons 4.0 BY-NC",
+	"include": "neppz.regions.namespace.declaration.json",
 	"settings":
 	[
 
