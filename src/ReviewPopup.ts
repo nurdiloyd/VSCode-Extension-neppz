@@ -31,16 +31,16 @@ export class ReviewPopup
         var messages =
         [
             {
-                "text" : "Like **eppz!** (C# theme for Unity)? ✨⭐🌟⭐✨ Rate it on the Marketplace!",
+                "text" : "Like **neppz!** (C# theme for Unity)? ✨⭐🌟⭐✨ Rate it on the Marketplace!",
                 "label" : "Like?"
             },
             {
-                "text" : "Help others discover **eppz!** (C# theme for Unity)! ✨⭐🌟⭐✨ Rate it on the Marketplace!",
+                "text" : "Help others discover **neppz!** (C# theme for Unity)! ✨⭐🌟⭐✨ Rate it on the Marketplace!",
                 "label" : "Help others!"
             },
         ];
         var message = messages[Math.floor(Math.random() * messages.length)]; // Random question from above
-        var url = "https://marketplace.visualstudio.com/items?itemName=eppz.eppz-code"; // Skip `#review-details` for now
+        var url = "https://marketplace.visualstudio.com/items?itemName=Nurdi.neppz"; // Skip `#review-details` for now
         var uri = vscode.Uri.parse(url);
         
         // Show.       

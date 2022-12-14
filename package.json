@@ -1,7 +1,7 @@
 {
-    "name": "eppz-code",
-    "displayName": "eppz! (C# theme for Unity)",
-    "version": "1.2.52",
+    "name": "neppz",
+    "displayName": "neppz! (C# theme for Unity)",
+    "version": "0.0.1",
     "description": "Carefully designed colors with meanings.",
     "keywords": [
         "unity 3d",
@@ -49,26 +49,28 @@
         "visual studio",
         "visual studio code",
         "eppz",
-        "eppz!"
+        "eppz!",
+        "neppz",
+        "neppz!"
     ],
-    "publisher": "eppz",
+    "publisher": "nurdi",
     "license": "CC-BY-NC-4.0",
     "author": {
-        "name": "Geri Borbás (eppz!)",
-        "url": "https://twitter.com/_eppz"
+        "name": "Nurdogan Karaman",
+        "url": "https://twitter.com/nurdiloyd"
     },
-    "icon": "images/eppz-Code_icon_128px.png",
+    "icon": "images/neppz_icon_128px.png",
     "galleryBanner": {
         "color": "#2b2d35",
         "theme": "dark"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/eppz/VSCode.Extension.eppz_Code"
+        "url": "https://github.com/nurdiloyd/VSCode-Extension-neppz"
     },
-    "homepage": "https://github.com/eppz/VSCode.Extension.eppz_Code/blob/master/README.md",
+    "homepage": "https://github.com/nurdiloyd/VSCode-Extension-neppz/blob/master/README.md",
     "bugs": {
-        "url": "https://github.com/eppz/VSCode.Extension.eppz_Code/issues"
+        "url": "https://github.com/nurdiloyd/VSCode-Extension-neppz/issues"
     },
     "categories": [
         "Languages",
@@ -152,26 +154,26 @@
         ],
         "themes": [
             {
-                "label": "eppz!",
+                "label": "neppz!",
                 "uiTheme": "vs-dark",
-                "path": "./themes/default/eppz-code.json"
+                "path": "./themes/default/neppz.json"
             }
         ],
         "commands": [
             {
-                "command": "eppz.code.popUpReview",
-                "title": "Pop up review notification for eppz! (C# theme for Unity)"
+                "command": "neppz.popUpReview",
+                "title": "Pop up review notification for neppz! (C# theme for Unity)"
             },
             {
-                "command": "eppz.code.resetReviewCounters",
-                "title": "Reset review notification counters for eppz! (C# theme for Unity)"
+                "command": "neppz.resetReviewCounters",
+                "title": "Reset review notification counters for neppz! (C# theme for Unity)"
             }
         ],
         "configuration": {
             "type": "object",
-            "title": "eppz! (C# theme for Unity) configuration",
+            "title": "neppz! (C# theme for Unity) configuration",
             "properties": {
-                "eppz-code.disableAnalytics": {
+                "neppz-code.disableAnalytics": {
                     "type": "boolean",
                     "default": false,
                     "description": "Disable usage analytics."

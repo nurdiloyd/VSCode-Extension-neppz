@@ -28,7 +28,7 @@ export function activate(context: vscode.ExtensionContext)
 
     // 👉 direct invocations (for testing mainly).
     context.subscriptions.push(vscode.commands.registerCommand(
-        'eppz.code.popUpReview', 
+        'neppz.popUpReview', 
         () =>
         {
             Data.Instance().reviewDidClicked = false; // Reset
@@ -36,7 +36,7 @@ export function activate(context: vscode.ExtensionContext)
         }
         ));   
     context.subscriptions.push(vscode.commands.registerCommand(
-        'eppz.code.resetReviewCounters',
+        'neppz.resetReviewCounters',
         () => { Data.Reset(); }
         ));
 }
