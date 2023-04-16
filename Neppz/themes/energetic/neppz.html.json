@@ -1,0 +1,23 @@
+{
+	"name": "neppz! (html)",
+	"author": ["Geri Borbás", "Nurdogan Karaman"],
+	"comment": "Created by Geri Borbás (https://twitter.com/_eppz) Edited by Nurdogan Karaman (https://twitter.com/nurdiloyd) © 2022 Creative Commons 4.0 BY-NC",
+	"include": "neppz.ts.json",
+	"settings":
+	[
+
+
+	// Tag names and attributes.
+	
+		{
+			"name": "Tag name",
+			"scope": [ "entity.name.tag" ],
+			"settings": { "foreground": "#d88e79" }
+		},
+		{
+			"name": "Tag attribute",
+			"scope": [ "entity.other.attribute-name" ],  	
+			"settings": { "foreground": "#d9c679" }
+		}
+	]
+}

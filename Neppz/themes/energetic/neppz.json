@@ -1,0 +1,46 @@
+{	
+	"name": "neppz!",
+	"author": ["Geri Borbás", "Nurdogan Karaman"],
+	"comment": "Created by Geri Borbás (https://twitter.com/_eppz) Edited by Nurdogan Karaman (https://twitter.com/nurdiloyd) © 2022 Creative Commons 4.0 BY-NC",
+	"include": "neppz.root.json",
+	"settings":
+	[
+		{
+			"settings":
+			{
+				// Base.
+				"foreground": "#dddcd3",
+				"background": "#16181c",
+			
+				// Selection.
+				"selectionHighlight": "#FFFFFF",
+				"selection": "#0D0E10",
+				"lineHighlight": "#0D0E10",	
+				"inactiveSelection": "#21252C",
+
+				// Find.
+				"currentFindMatchHighlight": "#F6F7FF",
+				"findMatchHighlight": "#182133",
+				"findRangeHighlight": "#FFFFFF",
+				"rangeHighlight": "#21252C",
+
+				// Read-Write access.
+				"wordHighlight": "#353a51",
+				"wordHighlightStrong": "#354851",
+
+				// Reference.
+				"referenceHighlight": "#F82104",
+
+				// Links.
+				"activeLinkForeground": "#b9b9b5",
+				"gotoDefinitionLinkForeground": "#b9b9b5",
+				"hoverHighlight": "#dddcd3",
+
+				// Defaults.
+				"caret": "#a6a6a3",
+				"guide": "#85878a",
+				"invisibles": "#575b65"
+			}
+		}
+	]
+}
