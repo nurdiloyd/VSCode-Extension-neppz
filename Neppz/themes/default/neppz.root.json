@@ -141,7 +141,7 @@
 			"settings": { "foreground": "#405651" } // - 2
 		},
 		{
-			// Types
+			// Types like : private 'Nurdi' nurdiVariable
 			"name": "Types",
 			"comment": "Including classes, delegates, enums, interfaces, structs.",
 			"scope":
@@ -152,7 +152,7 @@
 			"settings": { "foreground": "#583E3A" }
 		},
 		{
-			// Types
+			// Types like : private 'int' intVariable
 			"name": "Types (built-in)",
 			"scope": [ "keyword.type" ],
 			"settings": { "foreground": "#583E3A" } // - 1
@@ -164,10 +164,10 @@
 			"settings": { "foreground": "#583E3A" } // - 2
 		},
 		{
-			// Types (support)
+			// Types (support) like : private 'List'<int> nurdiList 
 			"name": "Types (UnityEngine)",
 			"scope": [ "support.type.unity.UnityEngine" ],
-			"settings": { "foreground": "#6C4A45" } // - 1
+			"settings": { "foreground": "#583E3A" } // - 1
 		},
 		{
 			// Types (support)
@@ -182,16 +182,10 @@
 			"settings": { "foreground": "#6C4A45" } // - 2
 		},
 		{
-			// Modifiers like "public", "private"
+			// Modifiers like : 'private' Nurdi nurdiVariable
 			"name": "Modifiers",
 			"scope": [ "storage.modifier" ],
-			"settings": { "foreground": "#3F3D3D" } // - 2
-		},
-		{
-			// Modifiers reference of user implemented classes
-			"name": "Modifiers (other)",
-			"scope": [ "storage.type"],
-			"settings": { "foreground": "#3F3D3D" } // - 2
+			"settings": { "foreground": "#5A5353" } // - 2
 		},
 		{
 			// Types (declarations)
@@ -246,7 +240,7 @@
 			"settings": { "foreground": "#363B48" } // - 1
 		},
 		{
-			// Variables
+			// Variables like : private Nurdi 'nurdiVar'
 			"name": "Variables",
 			"scope":
 			[
@@ -258,7 +252,7 @@
 			"settings": { "foreground": "#9F9C8C" }
 		},
 		{
-			// Variables (local)
+			// Variables (local) like : Nurdi 'nurdiVarTemp'
 			"name": "Variables (local)",
 			"scope":
 			[
@@ -270,22 +264,22 @@
 			"settings": { "foreground": "#66655C" } // - 1
 		},
 		{
-			// Variables (support).
+			// Variables (support)
 			"name": "Variables (UnityEngine)",
 			"scope": [ "support.variable.UnityEngine" ],
-			"settings": { "foreground": "#FFCC00" } // - 1
+			"settings": { "foreground": "#000000" } // - 1
 		},
 		{
 			// Variables (support)
 			"name": "Variables (UnityEditor)",
 			"scope": [ "support.variable.UnityEditor" ],
-			"settings": { "foreground": "#FFCC00" } // - 1
+			"settings": { "foreground": "#000000" } // - 1
 		},
 		{
 			// Variables (support)
 			"name": "Variables (System)",
 			"scope": [ "support.variable.System" ],
-			"settings": { "foreground": "#FFCC00" } // - 2
+			"settings": { "foreground": "#000000" } // - 2
 		}
 	]
 }
