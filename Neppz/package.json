@@ -157,11 +157,6 @@
                 "label": "neppz!",
                 "uiTheme": "vs-dark",
                 "path": "./themes/default/neppz.json"
-            },
-            {
-                "label": "neppz! - energetic",
-                "uiTheme": "vs-dark",
-                "path": "./themes/energetic/neppz.json"
             }
         ],
         "commands": [
