@@ -42,8 +42,10 @@ namespace Studio.Game.Controllers
 
 		// Singleton.
 		public static SceneController shared { get; set; }
-		void Awake()
+		
+		private void Awake()
 		{
+			User uss;
 			shared = this; 
 			base.Initialize();
 		}
@@ -59,10 +61,10 @@ namespace Studio.Game.Controllers
 
 	#region Initialize
 
-		void Start()
+		private void Start()
 		{
 			// Quality, User, Tutorial.
-			if (debugMessages) Debug.Log(name + ".Initialize()");
+			if (debugMessages) Debug.Log(name + ".Initialize()" + 'd');
 			int qualityIndex = (Screen.dpi > 250.0f) ? 1 : 0;
 			QualitySettings.SetQualityLevel(qualityIndex); 			
 			user = User.User.Load();
